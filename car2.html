@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Krishna Car Showroom - Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary: #00bcd4;
+      --accent: #ff9800;
+      --bg: #121212;
+      --card: #1e1e1e;
+      --text: #f0f0f0;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      color: var(--primary);
+      margin: 0;
+    }
+    header p {
+      color: #ccc;
+      margin-top: 5px;
+    }
+    .login-form {
+      background-color: #1f1f1f;
+      padding: 30px;
+      max-width: 400px;
+      margin: 40px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .login-form h2 {
+      text-align: center;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    .login-form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: none;
+      background-color: #2c2c2c;
+      color: var(--text);
+    }
+    .login-form button {
+      background-color: var(--primary);
+      color: #000;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🚗 Krishna Car Showroom</h1>
+  <p>Login to explore your dream car</p>
+</header>
+
+<div class="login-form">
+  <h2>User Login</h2>
+  <form action="https://formsubmit.co/el/kanuja" method="POST">
+    <input type="text" name="Username" placeholder="Enter your username" required>
+    <input type="email" name="Email" placeholder="Enter your email" required>
+    <input type="password" name="Password" placeholder="Enter your password" required>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Login Submission from Krishna Car Showroom">
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+<footer>
+  <p>📞 Contact: +91 9876543210 | ✉️ Email: krishna@carshowroom.com</p>
+  <p>🌐 Follow us: Instagram | Facebook | YouTube</p>
+</footer>
+
+</body>
+</html>
